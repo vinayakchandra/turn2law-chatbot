@@ -7,3 +7,4 @@ streamlit==1.37.1
 langchain-groq
 langchain-huggingface
 chromadb
+pypdf
