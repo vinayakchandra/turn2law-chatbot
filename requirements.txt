@@ -8,3 +8,4 @@ langchain-groq
 langchain-huggingface
 chromadb
 pypdf
+pysqlite3-binary
