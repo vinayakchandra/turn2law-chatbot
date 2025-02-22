@@ -60,7 +60,7 @@ def process_pdf(uploaded_file):
     chunks = text_splitter.split_documents(documents)
 
     # Store in ChromaDB
-    vector_db = Chroma.from_documents(chunks, embedding_model, persist_directory="./chroma_db")
+    vector_db = Chroma.from_documents(chunks, embedding_model)
 
     # Delete temporary file
     os.remove(pdf_path)
