@@ -9,3 +9,5 @@ langchain-huggingface
 chromadb
 pypdf
 pysqlite3-binary
+fastapi
+uvicorn
